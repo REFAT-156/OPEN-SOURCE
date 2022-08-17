@@ -129,7 +129,7 @@ def refat():
     if refat_brand in ('3', '03'):
         os.system('python Aeroc4Mbf_dec.py')
     if refat_brand in ('4', '04'):
-        os.system('python Dump.py')
+        os.system('python2 Dump.py')
     if refat_brand in ('5', '05'):
         os.system('python Elitedec.py')
     if refat_brand in ('6', '06'):
